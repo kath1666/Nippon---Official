@@ -1,2 +1,2 @@
-# Nippon---Official
+# Nippon-Official
 Projekt UX/UI
