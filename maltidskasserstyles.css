@@ -1,0 +1,226 @@
+*
+{
+   margin: 0;
+   padding: 0;
+}
+
+
+/*------------------Main----------------------------*/
+
+
+/*øverste billede på siden*/
+
+
+
+
+.forsidebillede{
+   width: 100%;
+   height: auto;
+}
+
+
+.forsidebillede img{
+   width: 100%;
+   height: auto;
+  
+}
+
+
+
+
+h1{
+   text-align: center;
+   font-size: 3vw;
+   font-family: "iskra", sans-serif;
+   text-transform: uppercase;
+   margin: 4%;
+}
+
+
+.kasser{
+   display: flex;
+   justify-content: center;
+}
+
+
+.kasser div{
+   padding-left: 3%;
+   padding-right: 3%;
+   cursor: pointer;
+}
+
+.kasser div img:hover{
+    filter: brightness(80%);
+}
+
+.kasser div p{
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: raleway;
+}
+
+
+/*------------ Uge knapper ------------*/
+.button :hover, .button1 :hover, .button2 :hover, .button3 :hover{
+    cursor: pointer;
+    cursor: hand;
+  }
+
+
+  .button, .button1, .button2, .button3
+{
+  background-color: #bfccb4 ;
+  color: white;
+  text-align:center;    
+  font-size: 1.3vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px;
+  border-radius: 30px;
+  padding: 18px 32px;
+  cursor: pointer;
+  margin: 2%;
+  font-family: raleway;
+  color: black;
+}
+
+.uge{
+    text-align: center;
+    /*margin: 5%;*/
+}
+
+
+/*------Cards med opskrifter---------*/
+.opskrifter, .opskrifter1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.maaltider{
+    cursor: pointer;
+}
+
+.tekstboks1{
+width: 350px;
+height: 370px;
+text-align:center;
+background-color: #EFE8E1;
+margin: 2%;
+box-shadow: 8px 8px 10px lightgray;
+text-decoration: none;
+color: black;
+}
+
+.opskrifter div h1, .opskrifter1 div h1{
+    font-size: 1.4vw;
+    line-height: 2.8vw;
+    font-family: raleway;
+    font-weight: 600;
+}
+
+.opskrifter div p, .opskrifter1 div p{
+    font-size: 1.1vw;
+line-height: 1.5vw;
+font-family: raleway;
+text-align: center;
+margin-top: -5%;
+}
+
+.opskrifter img, .opskrifter1 img{
+    width: 100%;
+    background-color: lightblue;
+}
+
+
+.tid{
+    font-size: 1.1vw;
+    line-height: 2.8vw;
+    font-family: raleway;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 7%;
+}
+
+
+.premium1{
+    width: 753px;
+    height: 782px;
+    text-align:center;
+    background-color: #EFE8E1;
+    margin: 2%;
+    margin-right: 4%;
+    box-shadow: 8px 8px 10px lightgray;
+    }
+
+
+.premium1 p, .premium2 p{
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    font-family: raleway;
+    margin-top: -5%;
+    margin: 2%;
+}
+
+
+.tekstboks2{
+    width: 350px;
+    height: 370px;
+    text-align:center;
+    background-color: #EFE8E1;
+    box-shadow: 8px 8px 10px lightgray;
+    margin-top: 2%;
+    }
+
+
+.tekstboks3{
+    width: 350px;
+    height: 370px;
+    text-align:center;
+    background-color: #EFE8E1;
+    box-shadow: 8px 8px 10px lightgray;
+    margin-top: 10%;
+    }
+
+
+
+
+.opskrifter1{
+    margin-right: 2%;
+}
+
+
+.premium2{
+    width: 760px;
+    height: 782px;
+    text-align:center;
+    background-color: #EFE8E1;
+    margin: 2%;
+    box-shadow: 8px 8px 10px lightgray;
+    }
+
+
+.tekstboks4{
+    width: 350px;
+    height: 370px;
+    text-align:center;
+    background-color: #EFE8E1;
+    box-shadow: 8px 8px 10px lightgray;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 2%;
+    }
+
+.tekstboks5{
+    width: 350px;
+    height: 370px;
+    text-align:center;
+    background-color: #EFE8E1;
+    box-shadow: 8px 8px 10px lightgray;
+    margin-top: 10%;
+    }
+
+.nedersteSektion{
+    margin-bottom: 4%;
+}

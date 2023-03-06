@@ -1,0 +1,139 @@
+/*Generelle regler*/
+*{
+    margin: 0;
+    padding: 0;
+ }
+ /*logind og tilmeld*/
+ .signin {
+    margin: auto;
+    border-radius:3vw;
+    background-color:#EFE8E1;
+ 
+ 
+    position: relative;
+    flex-direction: column;
+    height:32vw;
+    width:60vw;
+ 
+ 
+   margin-top:5vw;
+    margin-bottom:5vw;
+ 
+ 
+    padding:2vw;
+    padding-left:5vw;
+    padding-right:5vw;
+    display: flex;
+ }
+ 
+ 
+ 
+ 
+ h1{
+    background-color: #EFE8E1;
+    font-family: "iskra", sans-serif;
+    margin-bottom:2vw;
+    margin-left:3%;
+ }
+ 
+ 
+ h2{
+    background-color: #EFE8E1;
+    font-family:'Raleway', sans-serif;
+    font-size:1,2vw;
+    margin-left:1%;
+    margin-bottom:1vw;
+    margin-top:1vw;
+ }
+ 
+ 
+ .tilmeld p{
+    font-family:'Raleway', sans-serif;
+    font-size:1,2vw;
+    background-color: #EFE8E1;
+    color: #FF0000;
+    margin-left:1%;
+    margin-bottom:2%;
+ }
+ 
+ 
+ 
+ 
+ .tilmeld {
+    margin: auto;
+    border-radius:3vw;
+    background-color:#EFE8E1;
+ 
+ 
+    position: relative;
+    flex-direction: column;
+    width:60vw;
+    height:46vw;
+ 
+ 
+    margin-bottom:10vw;
+ 
+ 
+    padding: 2vw;
+    padding-left:5vw;
+    padding-right:5vw;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .tekstfelt {
+    width:22vw;
+    height:4vw;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    padding-left:1vw;
+    padding-right:1vw;
+    border-radius: 2vw;
+    border:none;
+    outline: none;
+    display: flex;
+    background-color:white;
+    color:black;
+    font-size:1,3vw;
+    font-family: 'Raleway', sans-serif;
+ }
+ 
+ 
+ 
+ .btn {
+    display: flex;
+    justify-content: center;
+    color:black;
+    background-color:#BBCCB1;
+ 
+ 
+    font-family:'Raleway', sans-serif;
+    font-size:16pt;
+    font-weight:500;
+ 
+ 
+    border: none;
+    cursor: pointer;
+ 
+ 
+   /*Problemer med at bruge % og vw*/
+    width:250px;
+    height:60px;
+    border-radius:5vw;
+    margin-left:9%;
+    margin-top:5%;
+    margin-bottom:5%;
+    padding:1%;
+    transition: 0.5s;
+ }
+ 
+ 
+ .btn:hover {
+    background-color:#88A07A;
+ }
+ 

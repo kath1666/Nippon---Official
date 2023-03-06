@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Log ind side</title>
+   <link rel="stylesheet" href="signin.css">
+   <link rel="stylesheet" href="header+footerstyle.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Ralweay font-->
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!----------------- HEADER ------------------>
+
+<header>
+
+    <a href="index.html"><img src="images/logonippon.png" alt="logo"></a>
+
+    <nav>
+        <a href="maltidskasser.html">Måltidskasser</a>
+
+
+            <div class="dropdown">   <!----DROPDOWN BOKS------>
+                <div class="dropdownbutton">Nippon <i class="fa-solid fa-angle-down fa-sm"></i></div>
+                <div class="dropdown-content">
+                    <a href="omnippon.html">Om nippon</a>
+                    <a href="error.html">Pandaen Nippa</a>
+                    <a href="error.html">FAQ</a>
+                </div>
+            </div>
+        <div class="dropdown">   <!----DROPDOWN BOKS------>
+            <div class="dropdownbutton">Det grønne valg <i class="fa-solid fa-angle-down fa-sm"></i></div>
+            <div class="dropdown-content">
+                <a href="detgronnevalg.html">Leverandører</a>
+                <a href="detgronnevalg.html#raavarer-link">Råvarer</a>
+            </div>
+        </div>
+
+
+            <a href="tilmeld.html" class="buttonlogin">log ind | tilmeld</a>
+    </nav> 
+</header>
+
+<main>
+
+   <!--login og tilmelding-->
+   <div class="signin">
+       <h1>LOG IND PÅ DIN BRUGER</h1>
+       <h2>EMAILADRESSE</h2>
+       <input type="text" class="tekstfelt" placeholder="EMAILADRESSE">
+       <h2>ADGANGSKODE</h2>
+       <input type="text" class="tekstfelt" placeholder="ADGANGSKODE">
+       <button type="logind" class="btn">LOG IND</button>
+   </div>
+
+
+
+
+   <div class="tilmeld">
+       <h1>TILMELD DIG</h1>
+       <h2>EMAILADRESSE</h2>
+       <input type="text" class="tekstfelt" placeholder="EMAILADRESSE">
+       <h2>ADGANGSKODE</h2>
+       <input type="text" class="tekstfelt" placeholder="ADGANGSKODE">
+       <p>Mindst 1 stort bogstav</p>
+       <p>Mindst 8 tegn</p>
+       <p>Mindst 1 specialtegn</p>
+       <p>Mindst 1 tal</p>
+       <h2>GENTAG ADGANGSKODE</h2>
+       <input type="text" class="tekstfelt" placeholder="GENTAG ADGANGSKODE">
+       <button type="tilmeld" class="btn">TILMELD</button>
+   </div>
+
+</main>
+
+
+<!------------------ FOOTER ------------------>
+
+
+<footer>
+
+
+    <div class="flexcontainerFooter">
+       
+        <div class="footerMenuer">
+            <p>Nippon</p>
+            <ul>
+                <li><a href="omnippon.html">Om Nippon</a></li>
+                <li><a href="maltidskasser.html">Måltidskasser</a></li>
+                <li><a href="error.html">Pandaen Nippa</a></li>
+                <li><a href="detgronnevalg.html">Det Grønne Valg</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footerMenuer">
+            <p>Hjælp</p>
+            <ul>
+                <li><a href="error.html">FAQ</a></li>
+                <li><a href="error.html">Kontakt os</a></li>
+                <li><a href="error.html">Vilkår og betingelser</a></li>
+                <li><a href="error.html">Cookie- og privatlivspolitik</a></li>
+            </ul>
+        </div>
+
+
+        <div> <!-- Bare en tom div for at skabe luft. --> </div>
+
+
+        <div class="anmeldelse">
+            <img src="images/rating.png" alt="Vores rating">
+            <p id="citat">"Nippons måltidskasser er <br> altid fyldt med lækre opskrifter <br> og friske råvarer."</p>
+            <a href="https://www.trustpilot.com">www.trustpilot.com</a>
+        </div>
+
+
+        <div class="socialMedia">
+            <div id="blueIcons">
+                <a href="https://www.facebook.com/">
+                    <img src="images/facebook-icon.png" alt="Facebook">
+                </a>
+                <a href="https://www.twitter.com">
+                    <img src="images/twitter-icon.png" alt="Twitter">
+                </a>
+            </div>
+            <div id="redIcons">
+                <a href="https://www.instagram.com">
+                    <img src="images/insta-icon.png" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com">
+                    <img src="images/youtube-icon.png" alt="Youtube">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="copyright">
+        <p>Copyright © 2023 Nippon </p>
+    </div>
+
+
+</footer>
+
+
+</body>
+</html>

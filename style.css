@@ -1,0 +1,309 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---------------MAIN--------------------------------------------------------------- */
+
+.firstsection
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.firstsection img
+{
+    width: 100%;
+}
+
+
+.firstsection h1
+{
+    position: absolute;
+    font-family: "iskra", sans-serif;
+    top:25%;
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+
+
+.firstsection a
+{
+    position: absolute;
+    font-family: raleway;
+    top: 70%;
+    text-align: center;
+    color: black;
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 1.1% 2%;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.lasemere, .nippon-sec div a, .japancontainer div a, .textcontainer a
+{
+    font-family: raleway;
+    text-align: center;
+    color: black;
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #bfccb4;
+    text-align: center;
+    display: inline-block;
+    padding: 2% 4%;
+}
+
+
+#læsmere-hvid
+{
+    background-color: white;
+}
+
+#læsmere-hvid:hover{
+    background-color: #bfccb4;
+}
+
+.lasemere:hover{
+    filter: brightness(80%);
+}
+
+.infographic
+{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    text-align: center;
+}
+
+
+.infographic h1
+{
+    font-family: "iskra", sans-serif;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+.infographic h2
+{
+    font-family: raleway;
+    font-size: 1.3vw;
+    font-weight: normal;
+    line-height: 2.8vw;
+    margin-top: 2%;
+}
+
+
+#blomst1
+{
+    float:right;
+    position: relative;
+    top: -37vh;
+    width: 20%;
+}
+
+
+#blomst2
+{
+    float:left;
+    position: relative;
+    top: 37vh;
+    width: 20%;
+    transform: scaleX(-1);
+}
+
+
+#graphic
+{
+    padding-top: 5vh;
+    width: 60%;
+    margin: auto;
+    padding: auto;
+    }
+
+
+.flexcontainerindex
+{
+    display: flex;
+    width: 100%;
+    background-color: #EFE8E1;
+}
+
+
+.flexcontainerindex div
+{
+    width: 50%;
+}
+
+
+#imgcontainer
+{
+    width: 100%;
+    display: table-header-group;
+}
+
+
+.ikonerfilter
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.textcontainer
+{
+    text-align: center;
+    height: 100%;
+    margin: auto;
+}
+
+.textcontainer h1, .japancontainer h1,  .nippon-sec div h1
+{
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-family: "iskra", sans-serif;
+
+
+}
+
+
+.textcontainer p, .japancontainer p,  .nippon-sec div p
+{
+    font-family: raleway;
+    font-size: 1.3vw;
+    line-height: 2.8vw;
+    margin: 3%;
+}
+
+
+#ikonerflex
+{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: raleway;
+    font-size: 1.5vw;
+}
+
+
+#ikonerflex div
+{
+    flex-direction: row;
+    cursor: pointer;
+}
+
+#ikonerflex div img:hover{
+    filter: brightness(80%);
+}
+
+#ikonerflex div p
+{
+    text-align: center;
+}
+
+
+.japancontainer
+{
+    background-color: #EFE8E1;
+    display: flex;
+    padding: 1% 5%;
+}
+
+.japancontainer #madgladeBorn{
+    width: 60%;
+}
+
+.japancontainer div
+{
+    flex-direction: row;
+    margin: 5%;
+    text-align: center;
+}
+
+.japanimg{
+    width: 25%;
+}
+
+.japanimg img
+{
+    width: 100%;
+    margin-left: 34%;
+}
+
+.japanimg #pandaenNippa{
+    margin-left: -25%;
+}
+
+#japanskCuisine{
+    width: 75%;
+    margin-right: 11%;
+}
+
+
+#nippa
+{
+    background-color: white;
+}
+
+
+#nippa img
+{
+    width: 80%;
+}
+
+
+.nippon-sec
+{
+    background-color: #EFE8E1;
+    position: relative;
+}
+
+
+.nippon-sec div
+{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+#blomst1-nippon
+{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 20%;
+}
+
+
+#blomst2-nippon
+{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 20%;
+    transform: scaleX(-1);
+}
+
+
+footer{
+    background-color: white !important;
+}

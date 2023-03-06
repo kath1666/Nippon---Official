@@ -1,0 +1,133 @@
+*
+{
+   margin: 0;
+   padding: 0;
+}
+
+
+/*------------------Main----------------------------*/
+
+
+/*øverste billede på siden*/
+.kultur{
+   width: 100%;
+   height: auto;
+}
+
+
+.kultur img{
+   width: 100%;
+   height: auto;
+  
+}
+
+
+
+/*layout i afsnittet "det japanske køkken"*/
+h1{
+   text-align: center;
+   font-size: 3vw;
+   font-family: "iskra", sans-serif;
+   text-transform: uppercase;
+   margin: 4%;
+}
+
+
+.køkken p, .kultur p, .omosflex p{
+   text-align: center;
+   font-size: 1.3vw;
+   line-height: 2.8vw;
+   font-family: raleway;
+
+
+}
+
+
+.køkken p{
+   padding-bottom: 4%;
+}
+
+
+/*flexboksen ved "om nippon" afsnittet*/
+.omosflex{
+   display: flex;
+   background-color: #EFE8E1;
+   padding: 0;
+   margin: 0;
+}
+
+
+/*layout af teksten i "om nippon" afsnittet*/
+
+.omosflex p{
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+
+
+
+
+
+
+
+/*så de to flexbokse fylder 50% hver*/
+.omosflex div{
+   width: 50%;
+   margin: 0%;
+   padding: 0%;
+}
+
+
+/*billedet skal fylde 100% af dens boks*/
+#gulerødder, #levering{
+width: 100%;
+display: table-header-group; /* Får diven med billede til at passe med billedet. */
+}
+
+
+#tekstboks{
+   text-align: center;
+   justify-content: center;
+   margin: auto;
+}
+
+
+.ikonserie{
+   display: flex;
+   margin: 8%;
+}
+
+
+.ikonserie p{
+   font-size: 1.3vw;
+   line-height: 2.8vw;
+   font-family: raleway;
+   text-align: left;
+}
+
+
+h3{
+   font-size: 1.4vw;
+   line-height: 2.8vw;
+   font-family: raleway;
+   font-weight: 700;
+   flex-wrap: nowrap;
+}
+
+
+.ikonserie h3, .ikonserie p{
+   padding-left: 5%;
+}
+
+
+.ikontekst{
+   padding-left: 3%;
+   padding-right: 3%;
+}
+
+
+.ikonserie div img{
+   margin-top: -8%;
+  
+}

@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+
+    /*_________DELIVERYCONTAINER_______________________________________________________________*/
+   
+    .deliverycontainer{
+        display: flex;
+        justify-content:center;
+    }
+   
+    .deliverycontainer div{
+    width: 350px;
+    height: 550px;
+    text-align:center;
+    background-color: #EFE8E1;
+    margin:3%;
+    }
+   
+    .deliverycontainer div h1{
+        text-transform: uppercase;
+        font-family:'Raleway', sans-serif,bold;
+        font-weight: 600;
+        font-size: 1.6vw;
+        background-color: #EFE8E1;
+        margin: 0,6vw;
+        margin-top:1vw;
+    }
+   
+    .deliverycontainer div h2{
+        font-size: 1.3vw;
+        line-height:2vw;
+        font-weight: 100;
+        font-family:'Raleway', sans-serif;
+        background-color: #EFE8E1;
+        padding:1vw;
+    }
+   
+    .deliverycontainer img{
+        width: 100%;
+        height:auto;
+        background-color: #EFE8E1;
+    }
+   
+ /*-HEALTHYFOODCONTAINER--*/
+ .healthyfoodcontainer{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 3%;
+    font-family:'Raleway', sans-serif;
+ }
+ 
+ 
+ .healthyfoodcontainer div{
+ width: 350px;
+ height:550px;
+ text-align:center;
+ background-color:#EFE8E1;
+ margin:3%;
+ }
+ 
+ 
+ .healthyfoodcontainer div h1{
+    text-transform: uppercase;
+    font-family:'Raleway', sans-serif;
+    font-weight: 600;
+    background-color: #EFE8E1;
+    font-size: 1.6vw;
+    margin: 0,6vw;
+    margin-top:1vw;
+ }
+ 
+ 
+ .healthyfoodcontainer div h2{
+    font-size: 1.3vw;
+    line-height:2vw;
+    font-weight: 100;
+    background-color: #EFE8E1;
+    padding:1vw;
+ }
+ 
+ 
+ .healthyfoodcontainer img{
+    width: 100%;
+    height:auto;
+ }
+ 
+ 
+ /*VEGGIEIMAGE*/
+ 
+ 
+ #veggieimage img{
+    width:100%;
+    height:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ #veggieimage {
+    margin-bottom:6vw;
+    width:100%;   
+    height:auto;
+ }
+ 
+ 
+ .leverandoreroverskrift{
+    text-align: center;
+    margin-bottom: 4vw;
+    font-family: "iskra", sans-serif;
+    font-size: 3vw;
+    text-transform: uppercase;
+ }
+ 
+ 
+ .raavareroverskrift{
+ text-align: center;
+ margin-top: 3vw;
+ margin-bottom: 3vw;
+ font-family: "iskra", sans-serif;
+ font-size: 3vw;
+ text-transform: uppercase;
+ }
+ 

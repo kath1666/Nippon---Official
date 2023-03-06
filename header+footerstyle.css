@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header
+{
+    display:flex;
+    height: 10.1vh;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    z-index: 1;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+
+header nav a
+{
+    text-decoration: none;
+    color: black;
+    padding-right: 2%;
+}
+
+header nav
+{
+    width: 100%;
+}
+
+header nav div
+{
+padding: 2%;
+}
+
+.buttonlogin
+{
+    border:3px;
+    color:black;
+    padding: 1.3vh 3vh;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #e1aec9;
+    border-radius: 20px;
+    float: right;
+    margin-top: 1%;
+    margin-right: 1.5%;
+}
+
+
+header img
+{
+    padding-left: 1%;
+    width: 70%;
+}
+
+
+/*DROPDOWN*/
+
+
+.dropdownbutton
+{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.3vw;
+    display:inline-block;
+    white-space: nowrap;
+}
+
+
+.dropdown
+{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: auto;
+}
+
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    width:100%;  
+
+
+}
+
+
+.dropdown-content a
+{    
+    text-decoration: none;
+    display: block;
+    font-size: 1.2vw;
+    padding: 1.4vh 1.2vh;
+}
+
+
+.dropdown-content a:hover
+{
+    background-color:  #e1aec9;
+}
+
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+
+.dropdown:hover .dropdownbutton, header nav a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+/*----------- FOOTER -------------*/
+
+
+footer{
+    background-color: #efe8e1;
+    width: 100%;
+    font-family: Raleway;
+ }
+ 
+ 
+ .flexcontainerFooter{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+ }
+ 
+ 
+ .flexcontainerFooter div{
+    width: 20%;
+ }
+ 
+ 
+ .footerMenuer p{
+    font-weight: 700;
+    font-size: 1.2vw;
+ }
+ 
+ 
+ .footerMenuer li{
+    list-style-type: none;
+    margin-top: 9%;
+ }
+ 
+ 
+ .footerMenuer li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+ }
+
+ .footerMenuer li a:hover{
+   font-weight: 700;
+} 
+ 
+ 
+ .anmeldelse img{
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ 
+ .anmeldelse{
+    text-align: center;
+    line-height: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ 
+ 
+ .anmeldelse #citat{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1vw;
+    margin: auto;
+ }
+ 
+ 
+ .anmeldelse a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.85vw;
+ }
+ 
+ 
+ .socialMedia{
+    display: flex;
+ }
+ 
+ 
+ .socialMedia div{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+ }
+ 
+ 
+ .socialMedia div a img{
+    max-width: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+ }
+ 
+ 
+ .socialMedia #blueIcons a img{
+    margin-left: 50%;
+ }
+ 
+ 
+ .copyright{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+ }
+ 
+ 
+ .copyright p{
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+    font-size: 0.85vw;
+ }
+ 

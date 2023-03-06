@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body
+{
+font-family: raleway;
+}
+
+main{
+	background-color: #bfccb4;
+	padding-bottom: 10%;
+}
+
+#tilbage_pil
+{
+width: 10%;
+height: auto;
+}
+
+#tilbage_pil img
+{
+width: 100%;
+height: auto;
+}
+
+h1
+{
+text-align: center;
+text-transform: uppercase;
+font-family: iskra;
+}
+
+.opskrift
+{
+background-color: white;
+margin: 4% 10% 0% 10%;
+padding: 5%;
+display: flex;
+flex-direction: column;
+height: auto;
+width: auto;
+border-radius: 2%;
+}
+
+.opskrift_div1
+{
+display: flex;
+width: 100%;
+flex-direction: row;
+}
+
+.opskrift_div1 div
+{
+flex-direction: row;
+width: 15%;
+}
+
+#opskrift_video
+{
+width: 60%;
+text-align: center;
+margin-top: 7%;
+}
+
+#opskrift_video video
+{
+width: 100%;
+height: auto;
+}
+
+.opskrift_div2
+{
+display: flex;
+margin-top: 5%;
+}
+
+.opskrift_div2 div
+{
+flex-direction: row;
+width: 50%;
+}
+
+.opskrift_div2 div p
+{
+font-weight: 600;
+}
+
+#opskrift_fremgangsmåde
+{
+margin-left: 3%;
+font-weight: 300;
+}
+
+#opskrift_næringsindhold
+{
+display: flex;
+margin-left: 7%;
+}
+
+#opskrift_næringsindhold div div{
+	width: 100%;
+}
+
+#naeringsindhold div p{
+	padding-top: 10px;
+}
+
+
+
+/*----------- FOOTER -------------*/
+
+
+
+
+footer{
+background-color: #efe8e1;
+width: 100%;
+font-family: Raleway;
+}
+
+.flexcontainerFooter{
+display: flex;
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 3%;
+}
+
+.flexcontainerFooter div{
+width: 20%;
+}
+
+.footerMenuer p{
+font-weight: 700;
+font-size: 1.2vw;
+}
+
+.footerMenuer li{
+list-style-type: none;
+margin-top: 9%;
+}
+
+.footerMenuer li a{
+text-decoration: none;
+color: black;
+font-size: 1vw;
+}
+
+.anmeldelse img{
+max-width: 65%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.anmeldelse{
+text-align: center;
+line-height: 2vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.anmeldelse #citat{
+font-style: italic;
+font-weight: 300;
+font-size: 1vw;
+margin: auto;
+}
+
+.anmeldelse a{
+text-decoration: none;
+color: black;
+font-size: 0.85vw;
+}
+
+.socialMedia{
+display: flex;
+}
+
+.socialMedia div{
+width: 50%;
+justify-content: center;
+text-align: center;
+margin-top: 10%;
+}
+
+.socialMedia div a img{
+max-width: 50%;
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+.socialMedia #blueIcons a img{
+margin-left: 50%;
+}
+
+.copyright{
+width: 100%;
+text-align: center;
+justify-content: center;
+}
+
+.copyright p{
+padding-top: 1.5%;
+padding-bottom: 2%;
+font-size: 0.85vw;
+}
+ 
